@@ -1,0 +1,136 @@
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body h1 { 
+	font: 150% georgia, sans-serif;
+	line-height: 10;
+	color: #f1f0f0; 
+	background: url('mag_informatica.jpg')  ; 
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	font: 100% georgia, sans-serif;
+	margin-top: 0; 
+	text-align: center;
+	outline-color: #9685BA;
+	}
+h3 { 
+	font: calibri 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	text-align: left;
+	
+	color: #7D775C;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 4px;
+	cursor: pointer;
+}
+.button1 {
+	background-color: #14a02c;
+}
+
+.container {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+.toggle-btn {
+	width: 80px;
+	height: 40px;
+	background: gray;
+	border-radius: 30px;
+	padding: 5px;
+	transition: all 300ms ease-in-out;
+	
+}
+.toggle-btn > .inner-circle {
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 50%;
+	transition: all 300ms ease-in-out;
+}
+.toggle-btn.active {
+	background: #00acee;
+	
+}
+.toggle-btn.active > .inner-circle {
+	margin-left: 40px;
+}
+/* specific divs */
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+
+header {
+	padding-top: 20px;
+	height: 87px;
+}
+
+.summary {
+	clear: both; 
+	margin: 20px 20px 20px 10px; 
+	width: 160px; 
+	float: left;
+	}
+.summary p {
+	font: italic 1.1em/2.2 georgia; 
+	text-align: center;
+	}
+
+.preamble {
+	clear: right; 
+	padding: 0px 10px 0 10px;
+	}
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	}
+
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+.sidebar {
+	margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	}
