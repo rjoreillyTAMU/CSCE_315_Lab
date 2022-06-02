@@ -1,82 +1,104 @@
+<!--
+Robert O'Reilly
+CSCE 315 
+Project 1
+-->
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<style>
-h1 {text-align: center; font-family:verdana;}
-h2 {text-align: center; font-family:verdana;}
-h3 {text-align: center; font-family:verdana;}
-h4 {text-align: center; font-family:verdana;}
-h5 {text-align: center; font-family:verdana;}
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-</style>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content ="width=device-width, initial-scale=1">
-    <title>Landing Page</title>
-    <!--<link rel="stylesheet" type="text/css" href="style.css"></link>--> 
-    <!--<link rel="icon" href="titleImage.jpg" sizes="16x16"> --> 
+	<meta charset="utf-8">
+	<title>Landing Page Robert O'Reilly CSCE 315</title>
+   <link rel="stylesheet" type="text/css" href="style.css"></link> 
+   <link rel="icon" href="titleImage.jpg" sizes="16x16"> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+		<script type="text/javascript">
+		function redirectToURL(btnId){
+			if(btnId=="button1")
+				window.location.replace("http://people.tamu.edu/~rjoreilly/Resume/Oreilly_resume.pdf");
+			else if(btnId=="button2")
+				window.location.replace("http://people.tamu.edu/~rjoreilly/Style1/index.html");
+			else if(btnId=="button3")
+				window.location.replace("http://people.tamu.edu/~rjoreilly/Style2/index.html");
+			else if(btnId=="button4")
+				window.location.replace("http://people.tamu.edu/~rjoreilly//index.html");
+		}		
+	 </script>
+
 </head>
+<body>	
+	<div class="header">
+		<h1> Robert J. O'Reilly III </h1>
+	</div>	
+	<div class="topnav">
+		<input type="button" id="button1" value="Resume" onClick='redirectToURL(this.id)'/>
+		<input type="button" id="button2" value="Style1" onClick='redirectToURL(this.id)'/>
+		<input type="button" id="button3" value="Style2" onClick='redirectToURL(this.id)'/>
+		<input type="button" id="button4" value="Default HTML" onClick='redirectToURL(this.id)'/>
+	</div>	
+	<div class="row">
+	  <div class="leftcolumn">
+		<div class="card">
+			<h2> Bio </h2>
+			<p>
+				My name is Robert O'Reilly and I am an  <a style="color: rgb(22, 35, 178) ;" href="https://www.defense.gov/" target="_blank">
+				 active duty service member </a> currently stationed at 
+				 <a style="color: rgb(22, 35, 178) ;"href="https://www.tamu.edu/" target="_blank"> Texas A&M University.</a> 
+				I was born and raised in California and joined the military in 2012. Since joining
+				the military I have traveled to many different countries and have held many different roles to include a squad leader, radio operator and a Marine Embassy Guard.
+				During my time in the military I have been afforded the great oppurtunity to travel to over 17 different countries. Currently, I am a full time student within the College of Engineering 
+				working towards a Bachelors in Computing with minors in 
+				<a style="color: rgb(22, 35, 178) ;" href="https://www.ibm.com/topics/cybersecurity" target="_blank"> cybersecurity </a> and military studies. 
+				Subsequently, I am also a member of the <a style="color: rgb(22, 35, 178) ;" href="https://cybersecurity.tamu.edu/education/texas-am-defense-cyber-leader-development-program/" target="_blank"> 
+					Defense Cyber Leader Development Program.</a> An organization which trains and recruits computer specialists and prepare them for work in federal service.
+					This program has also afforded me the oppurtunity to work within a team as a security analyst for the 
+					<a style="color: rgb(22, 35, 178) ;" href="https://it.tamus.edu/cybersecurity/soc/" target="_blank"> Texas A&M Office of Information Technology. </a>
+			</p>
+		</div>
+		<div class="card">
+		  <h2>Technical Portfolio</h2>
+		  <p>
+			Completed projects on high end <a style="color: rgb(22, 35, 178) ;" href="https://www.programiz.com/dsa/data-structure-types" target="_blank"> data structures </a>   to include hash tables, trees, linked lists, and heaps. Also have knowledge of
+			<a style="color: rgb(22, 35, 178) ;" href="https://www.computerscience.org/resources/computer-programming-languages/" target="_blank"> coding languages </a>
+			such as C, C++, Java, HTML, Python, Racket, and Scheme.			
+		</p>
+		</div>
+		<div class="card">
+			<h2>Qualifications</h2>
+			<p>
+				Have certifications from the <a style="color: rgb(22, 35, 178) ;" href="https://www.navsea.navy.mil/Home/Shipyards/PHNS-IMF/Careers/Apprenticeship/" target="_blank"> Naval Apprenticeship program </a>  
+				as a computer operator and security specialist. Subsequently, have also recieved mutiple certifications from the
+				<a style="color: rgb(22, 35, 178) ;" href="https://www.navsea.navy.mil/Home/Shipyards/PHNS-IMF/Careers/Apprenticeship/" target="_blank"> Diplomatic Security Service </a> 
+				to include compound defense, close combat tactics, defensive techniques and security equiment operation.  
+			  </p>
+		  </div>
+		  <div class="card">
+			<h2>Service</h2>
+			<p>
+				Have personally logged of 500 volunteer hours with many organizations to include
+				<a style="color: rgb(22, 35, 178) ;" href="https://www.toysfortots.org/" target="_blank"> Toys 4 Tots </a> , 
+				<a style="color: rgb(22, 35, 178) ;" href="https://en.wikipedia.org/wiki/Society_for_the_Prevention_of_Cruelty_to_Animals" target="_blank"> The Society for the Prevention of Cruelty to Animals </a> ,
+				and the <a style="color: rgb(22, 35, 178) ;" href="https://potomac.org/" target="_blank"> Potomac Conservancy Group. </a>
+			</p>
+		  </div>
+	  </div>
+	  <div class="rightcolumn">
+		<div class="card">
+		  <div class="img">			
+		  </div>
+		</div>
+<br>
+<div class="card">
+   <h3>Follow Me On Social Media</h3>
+   <p><a style="color:black ;" href="https://www.instagram.com/3rd_staffy_lieutenant_/" target="_blank"> @3rd_staffy_lieutenant</a></p>
+ </div>
+</div>
+</div>
 
-<body>
-   <h1> <b>Robert J. O'Reilly III<b/> </h1>
-    <p>
-      <a href="http://people.tamu.edu/~rjoreilly/Styles/index.html
-      " target="_blank"> <button class="button button1">click to change style </button> </a>
-      <a href="http://people.tamu.edu/~rjoreilly/Resume/Oreilly_resume.pdf
-      " target="_blank"> <button class="button button1"> Resume </button> </a>
-      </p>
-   <hr/>
-      <img src="professional_photo.jpg" height="250" width="250" alt="professional_photo">
-   <hr/>
-   <br>
-   <h2> <i> Bio </i> </h2>
-   <p>
-     My name is Robert O'Reilly and I am an  <a style="color: black ;" href="https://www.defense.gov/" target="_blank">
-      active duty service member </a> currently stationed at 
-      <a style="color: black ;"href="https://www.tamu.edu/" target="_blank"> Texas A&M University.</a> 
-     I was born and raised in California and joined the military in 2012. Since joining
-     the military I have traveled to many different countries and have held many different roles to include a squad leader, radio operator and a Marine Embassy Guard.
-     During my time in the military I have been afforded the great oppurtunity to travel to over 17 different countries. Currently, I am a full time student within the College of Engineering 
-     working towards a Bachelors in Computing with minors in 
-     <a style="color:black ;" href="https://www.ibm.com/topics/cybersecurity" target="_blank"> cybersecurity </a> and military studies. 
-   </p>
-   <p>
-      Subsequently, I am also a member of the <a style="color:black ;" href="https://cybersecurity.tamu.edu/education/texas-am-defense-cyber-leader-development-program/" target="_blank"> 
-      Defense Cyber Leader Development Program.</a> An organization which trains and recruits computer specialists and prepare them for work in federal service.
-      This program has also afforded me the oppurtunity to work within a team as a security analyst for the 
-      <a style="color:black ;" href="https://it.tamus.edu/cybersecurity/soc/" target="_blank"> Texas A&M Office of Information Technology. </a>
-   </p>
-
-   <h3> <i> Technical Portfolio </i> </h3>
-   <p>
-    Completed projects on high end <a style="color:black ;" href="https://www.programiz.com/dsa/data-structure-types" target="_blank"> data structures </a>   to include hash tables, trees, linked lists, and heaps. Also have knowledge of
-    <a style="color:black ;" href="https://www.computerscience.org/resources/computer-programming-languages/" target="_blank"> coding languages </a>
-    such as C, C++, Java, HTML, Python, Racket, and Scheme.
-
- </p>
- <h4> <i> Qualifications </i> </h4>
- <p>
-  Have certifications from the <a style="color:black ;" href="https://www.navsea.navy.mil/Home/Shipyards/PHNS-IMF/Careers/Apprenticeship/" target="_blank"> Naval Apprenticeship program </a>  
-  as a computer operator and security specialist. Subsequently, have also recieved mutiple certifications from the
-  <a style="color:black ;" href="https://www.navsea.navy.mil/Home/Shipyards/PHNS-IMF/Careers/Apprenticeship/" target="_blank"> Diplomatic Security Service </a> 
-  to include compound defense, close combat tactics, defensive techniques and security equiment operation.  
-</p>
-
-<h5> <i> Service </i> </h5>
-<p>
- Have personally logged of 500 volunteer hours with many organizations to include
- <a style="color:black ;" href="https://www.toysfortots.org/" target="_blank"> Toys 4 Tots </a> , 
- <a style="color:black ;" href="https://en.wikipedia.org/wiki/Society_for_the_Prevention_of_Cruelty_to_Animals" target="_blank"> The Society for the Prevention of Cruelty to Animals </a> ,
- and the <a style="color:black ;" href="https://potomac.org/" target="_blank"> Potomac Conservancy Group. </a>
-</p>
-    <hr/>
-    <hr/>
-
-</body>
+<div class="footer">
+<h2><a style="color:black ;" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> click for free dollar</a> </h2>
+</div>
 </html>

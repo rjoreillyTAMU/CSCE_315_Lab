@@ -1,0 +1,148 @@
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+* {
+  box-sizing: border-box;
+}	
+body { 
+	font-family: 200% georgia, sans-serif;
+	padding: 10px;
+	background: #f1f1f1;
+}
+p { 
+	margin-top: 100; 
+	text-align: center;
+	font-size: larger;
+	}
+.header {
+	padding: 30px;
+	text-align: center;
+	background: white;
+	background: url('bannerIMG.jpg')  ; 
+	color: white;
+  }
+	  
+.header h1 {
+	font-size: 50px;
+	
+  }
+  h3 { 
+	font: calibri 1.4em georgia, serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	text-align: center;
+	border: black;
+	color: #1550a8;
+
+}
+img {
+	background: transparent url('professional_photo.jpg') ;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+/* Style the top navigation bar */
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  .button {
+	border: rgb(1, 1, 8);
+	color: rgb(6, 6, 10);
+	background-color: rgb(236, 227, 227);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 4px;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.button:hover {
+	background-color: #dfdcec;
+	border: rgb(2, 2, 10);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.leftcolumn {   
+	float: left;
+	width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+	float: left;
+	width: 25%;
+	background-color: #f1f1f1;
+	padding-left: 20px;
+  }
+  
+  /* Fake image */
+.img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	  }
+  
+  /* Add a card effect for articles */
+  .card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+  }
+.card:hover {
+	background-color: #dfdcec;
+	border: rgb(2, 2, 10);
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+	color: white;
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px;
+	background: url('mag_informatica.jpg')  ; 
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {   
+	  width: 100%;
+	  padding: 0;
+	}
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+	.topnav a {
+	  float: none;
+	  width: 100%;
+	}
+  }
